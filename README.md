@@ -1,3 +1,5 @@
+# geompreds
+
 geompreds - A Python wrapper for 2D predicates of Jonathan Richard Shewchuk
 
 Many computational geometry applications use numerical tests known as the orientation and incircle tests. The orientation test determines whether a point lies to the left of, to the right of, or on a line or plane defined by other points. The incircle test determines whether a point lies inside, outside, or on a circle defined by other points. See [Adaptive Precision Floating-Point Arithmetic and Fast Robust Predicates for Computational Geometry](https://www.cs.cmu.edu/~quake/robust.html).
