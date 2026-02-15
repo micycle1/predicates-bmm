@@ -29,7 +29,7 @@ def get_version():
     for l in lines:
         # include the ' =' as __version__ might be a part of __all__
         if l.startswith('__version__ =', ):
-            version = ast.literal_eval(l[13:])
+            version = ast.literal_eval(l.split("=", 1)[1].strip())
             break
     if version is None:
         raise RuntimeError("Could not determine version number: "
