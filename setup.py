@@ -76,7 +76,7 @@ if __name__ == "__main__":
                        "Fast Robust Predicates for Computational Geometry "
                        "for Python"),
         license = "MIT license",
-        url = "https://github.com/micycle1/predicates-bmm",
+        url = "https://github.com/bmmeijers/predicates",
         package_dir = {'':'src'},
         packages = ['geompreds',],
         ext_modules = ext_modules,
