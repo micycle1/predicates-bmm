@@ -8,7 +8,7 @@ except ImportError:
     cython_available = False
 
 if not cython_available:
-    raise RuntimeError("Building geompreds requires Cython. Use `pip install .` so build dependencies are installed automatically.")
+    raise RuntimeError("Building geompreds requires Cython>=3.0. Use `pip install .` so build dependencies are installed automatically, or install manually with `pip install 'Cython>=3.0'`.")
 
 def get_version():
     """
